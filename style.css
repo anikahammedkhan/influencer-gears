@@ -2,6 +2,7 @@
 ----------Fonts---------
 ------------------------  */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
 
 /* body  */
 body {
@@ -96,4 +97,77 @@ hr {
     justify-content: center;
     align-items: center;
     justify-items: center;
+}
+
+#popular {
+    text-align: center;
+    font-weight: 600;
+    font-size: 28px;
+    color: #3A3A3A;
+    margin-bottom: 0px;
+}
+
+.collection-list {
+    width: 60%;
+    margin-left: 20%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+}
+
+.collection {
+    padding: 10px;
+    margin: 30px;
+    border-radius: 5px;
+    box-shadow: 5px 10px 15px grey;
+}
+
+.collection h2 {
+    font-weight: 500;
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.price {
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 24px;
+    color: rgba(0, 0, 0, 0.87);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.fa-star,
+.fa-star-half-stroke {
+    color: #FB8200;
+}
+
+.ratings {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    height: 20px;
+}
+
+.ratings p {
+    font-weight: 700;
+    font-size: 14px;
+    color: #5E6366;
+
+}
+
+.collection h3 {
+    font-weight: 700;
+    font-size: 14px;
+    color: #787885;
+}
+
+.see-more {
+    width: 60%;
+    margin-left: 20%;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    color: rgba(224, 44, 109, 0.87);
+    justify-content: flex-end;
 }
